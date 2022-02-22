@@ -4,7 +4,6 @@
 #include "DynamicDelegates.generated.h"
 
 
-
 #pragma region SingleDelegate
 
 DECLARE_DYNAMIC_DELEGATE(FVoidDelegate);

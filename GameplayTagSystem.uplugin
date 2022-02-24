@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "GameplayTagSystem",
 	"Description": "Unreal Engine plugin that contains a global and object based event and variable system using gameplay tags",
-	"Category": "Other",
+	"Category": "Gameplay",
 	"CreatedBy": "Creatorama Studio",
 	"CreatedByURL": "https://github.com/CreatoramaStudio/GameplayTagSystem",
 	"DocsURL": "https://github.com/CreatoramaStudio/GameplayTagSystem",

@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "GameplayTagContainer.h"
-#include "Structs/ArrayStructs.h"
+#include "Structs/GameplayTagArrayStructs.h"
 #include "GameplayTagVariableComponent.generated.h"
 
 

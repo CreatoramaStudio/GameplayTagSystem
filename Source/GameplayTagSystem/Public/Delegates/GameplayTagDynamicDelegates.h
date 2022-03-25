@@ -1,7 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "DynamicDelegates.generated.h"
+#include "GameplayTagDynamicDelegates.generated.h"
 
 
 #pragma region SingleDelegate

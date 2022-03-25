@@ -1,7 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "ArrayStructs.generated.h"
+#include "GameplayTagArrayStructs.generated.h"
 
 
 USTRUCT(BlueprintType)

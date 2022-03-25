@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
 #include "GameplayTagContainer.h"
-#include "Delegates/DynamicDelegates.h"
+#include "Delegates/GameplayTagDynamicDelegates.h"
 #include "GameplayTagDelegateInterface.generated.h"
 
 // This class does not need to be modified.

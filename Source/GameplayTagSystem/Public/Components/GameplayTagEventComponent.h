@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "GameplayTagContainer.h"
-#include "Delegates/DynamicDelegates.h"
+#include "Delegates/GameplayTagDynamicDelegates.h"
 #include "GameplayTagEventComponent.generated.h"
 
 

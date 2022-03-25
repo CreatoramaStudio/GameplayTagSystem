@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 #include "GameplayTagContainer.h"
-#include "Delegates/DynamicDelegates.h"
+#include "Delegates/GameplayTagDynamicDelegates.h"
 #include "GameplayTagEventSubsystem.generated.h"
 
 /**

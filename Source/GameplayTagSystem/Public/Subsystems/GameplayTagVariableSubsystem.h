@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Subsystems/GameInstanceSubsystem.h"
 #include "GameplayTagContainer.h"
-#include "Structs/ArrayStructs.h"
+#include "Structs/GameplayTagArrayStructs.h"
 #include "GameplayTagVariableSubsystem.generated.h"
 
 /**

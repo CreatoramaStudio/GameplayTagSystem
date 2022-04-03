@@ -19,98 +19,98 @@ public:
 #pragma region SingleVariable
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, bool> BoolVariables;
+	TMap<FGameplayTag, bool> BoolVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, int32> IntVariables;
+	TMap<FGameplayTag, int32> IntVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, float> FloatVariables;
+	TMap<FGameplayTag, float> FloatVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, FName> NameVariables;
+	TMap<FGameplayTag, FName> NameVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, FString> StringVariables;
+	TMap<FGameplayTag, FString> StringVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, FText> TextVariables;
+	TMap<FGameplayTag, FText> TextVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, FVector> VectorVariables;
+	TMap<FGameplayTag, FVector> VectorVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, FRotator> RotatorVariables;
+	TMap<FGameplayTag, FRotator> RotatorVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Core")
-		TMap<FGameplayTag, FTransform> TransformVariables;
+	TMap<FGameplayTag, FTransform> TransformVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Object")
-		TMap<FGameplayTag, UObject*> ObjectVariables;
+	TMap<FGameplayTag, UObject*> ObjectVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Object|Actor")
-		TMap<FGameplayTag, AActor*> ActorVariables;
+	TMap<FGameplayTag, AActor*> ActorVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Object|Actor")
-		TMap<FGameplayTag, APawn*> PawnVariables;
+	TMap<FGameplayTag, APawn*> PawnVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Object|Actor")
-		TMap<FGameplayTag, ACharacter*> CharacterVariables;
+	TMap<FGameplayTag, ACharacter*> CharacterVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Object|Component")
-		TMap<FGameplayTag, UActorComponent*> ActorComponentVariables;
+	TMap<FGameplayTag, UActorComponent*> ActorComponentVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Variable|Object|Component")
-		TMap<FGameplayTag, USceneComponent*> SceneComponentVariables;
+	TMap<FGameplayTag, USceneComponent*> SceneComponentVariables;
 
 #pragma endregion
 
 #pragma region Array
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FBoolArray> BoolArrayVariables;
+	TMap<FGameplayTag, FBoolArray> BoolArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FIntArray> IntArrayVariables;
+	TMap<FGameplayTag, FIntArray> IntArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FFloatArray> FloatArrayVariables;
+	TMap<FGameplayTag, FFloatArray> FloatArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FNameArray> NameArrayVariables;
+	TMap<FGameplayTag, FNameArray> NameArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FStringArray> StringArrayVariables;
+	TMap<FGameplayTag, FStringArray> StringArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FTextArray> TextArrayVariables;
+	TMap<FGameplayTag, FTextArray> TextArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FVectorArray> VectorArrayVariables;
+	TMap<FGameplayTag, FVectorArray> VectorArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FRotatorArray> RotatorArrayVariables;
+	TMap<FGameplayTag, FRotatorArray> RotatorArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Core")
-		TMap<FGameplayTag, FTransformArray> TransformArrayVariables;
+	TMap<FGameplayTag, FTransformArray> TransformArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Object")
-		TMap<FGameplayTag, FObjectArray> ObjectArrayVariables;
+	TMap<FGameplayTag, FObjectArray> ObjectArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Object|Actor")
-		TMap<FGameplayTag, FActorArray> ActorArrayVariables;
+	TMap<FGameplayTag, FActorArray> ActorArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Object|Actor")
-		TMap<FGameplayTag, FPawnArray> PawnArrayVariables;
+	TMap<FGameplayTag, FPawnArray> PawnArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Object|Actor")
-		TMap<FGameplayTag, FCharacterArray> CharacterArrayVariables;
+	TMap<FGameplayTag, FCharacterArray> CharacterArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Object|Component")
-		TMap<FGameplayTag, FActorComponentArray> ActorComponentArrayVariables;
+	TMap<FGameplayTag, FActorComponentArray> ActorComponentArrayVariables;
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite, Category = "Gameplay Tag Variable Component|Array|Object|Component")
-		TMap<FGameplayTag, FSceneComponentArray> SceneComponentArrayVariables;
+	TMap<FGameplayTag, FSceneComponentArray> SceneComponentArrayVariables;
 
 #pragma endregion
 
@@ -123,5 +123,4 @@ public:
 protected:
 
 private:
-
 };

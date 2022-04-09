@@ -48,22 +48,22 @@ public:
 	TMap<FGameplayTag, FTransform> TransformVariables;
 
 	UPROPERTY(SaveGame, BlueprintReadWrite, Category = "Gameplay Tag Variable Subsystem|Variable|Object")
-	TMap<FGameplayTag, UObject*> ObjectVariables;
+	TMap<FGameplayTag, TObjectPtr<UObject>> ObjectVariables;
 
 	UPROPERTY(SaveGame, BlueprintReadWrite, Category = "Gameplay Tag Variable Subsystem|Variable|Object|Actor")
-	TMap<FGameplayTag, AActor*> ActorVariables;
+	TMap<FGameplayTag, TObjectPtr<AActor>> ActorVariables;
 
 	UPROPERTY(SaveGame, BlueprintReadWrite, Category = "Gameplay Tag Variable Subsystem|Variable|Object|Actor")
-	TMap<FGameplayTag, APawn*> PawnVariables;
+	TMap<FGameplayTag, TObjectPtr<APawn>> PawnVariables;
 
 	UPROPERTY(SaveGame, BlueprintReadWrite, Category = "Gameplay Tag Variable Subsystem|Variable|Object|Actor")
-	TMap<FGameplayTag, ACharacter*> CharacterVariables;
+	TMap<FGameplayTag, TObjectPtr<ACharacter>> CharacterVariables;
 
 	UPROPERTY(SaveGame, BlueprintReadWrite, Category = "Gameplay Tag Variable Subsystem|Variable|Object|Component")
-	TMap<FGameplayTag, UActorComponent*> ActorComponentVariables;
+	TMap<FGameplayTag, TObjectPtr<UActorComponent>> ActorComponentVariables;
 
 	UPROPERTY(SaveGame, BlueprintReadWrite, Category = "Gameplay Tag Variable Subsystem|Variable|Object|Component")
-	TMap<FGameplayTag, USceneComponent*> SceneComponentVariables;
+	TMap<FGameplayTag, TObjectPtr<USceneComponent>> SceneComponentVariables;
 
 #pragma endregion
 

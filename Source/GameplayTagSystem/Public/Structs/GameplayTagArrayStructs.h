@@ -12,7 +12,7 @@ struct FBoolArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<bool> Value;
+	TArray<bool> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -23,7 +23,7 @@ struct FIntArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<int32> Value;
+	TArray<int32> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -34,7 +34,7 @@ struct FFloatArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<float> Value;
+	TArray<float> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -45,7 +45,7 @@ struct FNameArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<FName> Value;
+	TArray<FName> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -56,7 +56,7 @@ struct FStringArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<FString> Value;
+	TArray<FString> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -67,7 +67,7 @@ struct FTextArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<FText> Value;
+	TArray<FText> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -78,7 +78,7 @@ struct FVectorArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<FVector> Value;
+	TArray<FVector> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -89,7 +89,7 @@ struct FRotatorArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<FRotator> Value;
+	TArray<FRotator> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -100,7 +100,7 @@ struct FTransformArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<FTransform> Value;
+	TArray<FTransform> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -111,7 +111,7 @@ struct FObjectArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<UObject*> Value;
+	TArray<TObjectPtr<UObject>> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -122,7 +122,7 @@ struct FActorArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<AActor*> Value;
+	TArray<TObjectPtr<AActor>> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -133,7 +133,7 @@ struct FPawnArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<APawn*> Value;
+	TArray<TObjectPtr<APawn>> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -144,7 +144,7 @@ struct FCharacterArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<ACharacter*> Value;
+	TArray<TObjectPtr<ACharacter>> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -155,7 +155,7 @@ struct FActorComponentArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<UActorComponent*> Value;
+	TArray<TObjectPtr<UActorComponent>> Value;
 };
 
 USTRUCT(BlueprintType)
@@ -166,5 +166,5 @@ struct FSceneComponentArray
 public:
 
 	UPROPERTY(SaveGame, EditAnywhere, BlueprintReadWrite)
-		TArray<USceneComponent*> Value;
+	TArray<TObjectPtr<USceneComponent>> Value;
 };
